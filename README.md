@@ -29,6 +29,9 @@ Deploy Web: https://praktikum-tetitb.vercel.app/
 ## Prerequisites
 
 - [Download] CORS Blocker Extension pada browser yang akan digunakan
+- Kalau semisal terkena CORS langkah yang diambil :
+  1. Cobalah mengganti browser dengan plugin anti-CORS yang ada.
+  2. Apabila masih terkena CORS, buatlah shortcut dengan target "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp ", path chrome disesuaikan dengan perangkat yang anda gunakan.
 
 
 ## Dependencies
@@ -71,3 +74,7 @@ Deploy Web: https://praktikum-tetitb.vercel.app/
 *CRUD*
 
 CRUD dapat dilihat ketika login sebagai Admin yaitu untuk membuat modul praktikum, menghapus modul, memperbarui modul praktikum, menampilkan data modul, menambahkan daftar siswa, menghapus daftar siswa, mengubah data siswa, dan menampilkan data siswa 
+
+*Navigasi*
+
+Button pada page add student apabila dinavigasi menuju page yang salah, namun fungsi CRUD tetap dapat berjalan dan berfungsi dengan baik
